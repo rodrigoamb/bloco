@@ -62,7 +62,7 @@ button{
     border: none;
     text-transform: uppercase;
     border-radius: 5px;
-    /* margin-left: 20px; */
+    margin-left: 20px;
     cursor: pointer;
 }
 
@@ -96,30 +96,28 @@ ul li{
     text-align: center;
 }
 
-@media(max-width:515px){
+@media(max-width:770px){
     .container form{
         flex-direction: column;
     }
     
     form label{
-        margin-bottom: 20px;
+        margin: auto;
+        margin-bottom: 10px;
     }
 
     form input{
+        margin: auto;
         margin-bottom: 20px;
+        
+    }
+
+    form button{
+        margin: auto;
     }
 
     .footer{
-        width: 100%;
-        height: 10vh;
-        background-color: #343434;
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 30px;
-        font-size: 1rem;
-        text-align: center;
+        font-size: 0.8rem;
     }
 }
 
