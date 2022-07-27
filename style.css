@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-size: 1.3rem;
+    font-family: helvetica, sans-serif;
+    background-image: linear-gradient(0deg, rgba(0,120,170,1) 0%, rgba(161,233,237,1) 54%, rgba(255,196,0,1) 100%);
+}
+
+hr{
+    border: 2px solid rgb(80, 80, 80);
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+.container-tittle{
+    text-align: center;
+}
+
+.container-tittle h1{
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+.container form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+form label{
+    margin-right: 20px;
+}
+
+form input{
+    width: 300px;
+    padding: 10px;
+}
+
+form input:focus{
+    border: 5px solid rgb(31, 105, 162);
+}
+
+button{
+    padding: 10px;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+form button{
+    background-color: #008000; 
+}
+
+.container-list button{
+    background-color: #800000;
+    margin: 10px;
+    cursor: pointer;
+}
+
+ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: decimal;
+}
+
+@media(max-width:515px){
+    .container form{
+        flex-direction: column;
+    }
+    
+    form label{
+        margin-bottom: 20px;
+    }
+
+    form input{
+        margin-bottom: 20px; 
+    }
+    
+}
+
