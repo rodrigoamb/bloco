@@ -47,6 +47,7 @@ form input{
     width: 300px;
     padding: 10px;
     font-size: 1.3rem;
+    margin-right: 20px;
 }
 
 form input:focus{
@@ -59,7 +60,7 @@ button{
     border: none;
     text-transform: uppercase;
     border-radius: 5px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     cursor: pointer;
 }
 
@@ -80,6 +81,18 @@ ul li{
     list-style: decimal;
 }
 
+.footer{
+    width: 100%;
+    height: 10vh;
+    background-color: #343434;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
 @media(max-width:515px){
     .container form{
         flex-direction: column;
@@ -90,8 +103,7 @@ ul li{
     }
 
     form input{
-        margin-bottom: 20px; 
+        margin-bottom: 20px;
     }
-    
 }
 
